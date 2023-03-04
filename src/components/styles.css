@@ -1,0 +1,60 @@
+html{
+    max-width: 1000px;
+    margin: 0;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 244, 244);
+    color: #333;
+}
+.App{
+    padding: 40px;
+}
+.title{
+    margin: 0;
+    text-align: center;
+}
+.search-bar-container{
+    /* width: 95%; */
+    margin: 0 auto;
+}
+.header{
+    margin: 0 auto;
+}
+.form{
+
+    display: grid;
+    gap: 5px;
+    font-size: 1.5rem;
+}
+.label{
+    text-transform: capitalize;
+}
+.input{
+    padding: .1em .8em;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    border:1px solid #ddd;
+}
+.button{
+    background-color: rgba(0, 0, 0, 0.75);
+    transition: background-colr 250ms;
+}
+
+.button:hover{
+    background-color: rgba(27, 3, 3, 0.75);
+}
+.cards-displayer{
+    display: grid;
+    gap: 5px;
+}
+.card{
+    width:80px;
+    height:80px;
+    border: 4px solid red;
+}
